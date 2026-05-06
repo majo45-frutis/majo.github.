@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú Principal</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #24292e;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+            margin-bottom: 50px;
+            color: #24292e;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .menu-item {
+            background-color: #fafbfc;
+            border: 1px solid rgba(27, 31, 35, 0.15);
+            border-radius: 6px;
+            box-shadow: 0 1px 0 rgba(27, 31, 35, 0.04);
+            color: #24292e;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            width: 160px;
+            transition: all 0.2s;
+        }
+
+        .menu-item:hover {
+            background-color: #f3f4f6;
+            border-color: rgba(27, 31, 35, 0.15);
+        }
+
+        .menu-item:active {
+            background-color: #2ea44f;
+            color: white;
+            border-color: #2ea44f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Menú Principal</h1>
+
+    <div class="menu-container">
+        <a href="#" class="menu-item">Inicio</a>
+        <a href="#" class="menu-item">Repositorios</a>
+        <a href="#" class="menu-item">Códigos</a>
+        <a href="#" class="menu-item">Proyectos</a>
+        <a href="#" class="menu-item">Paquetes</a>
+        <a href="#" class="menu-item">Contacto</a>
+    </div>
+
+</body>
+</html>
